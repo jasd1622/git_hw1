@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>index3</title>
+	<meta charset="utf-8">
+	<link href="index3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrap">
+			<div id="log">
+				아이디 <input type="text" name="log"> 
+				비밀번호 <input type="text" name="password">
+				<input type="submit" value="로그인" id="log_box">
+			</div>
+			<div id="header">
+				<div id="head_top">
+				<div id="head_left">
+					<p>SHJ씨의 모든 것</p>
+				</div>
+				<div id="head_right">
+					<input type="text" name="search" id="search">
+					<input type="submit" value="search" id="search_box">
+				</div>
+			</div>
+				<div id="navbar">
+					<ul>
+						<li><a href="http://localhost/index1.html">자기소개 1</a></li>
+						<li><a href="http://localhost/index2.html">자기소개 2</a></li>
+						<li><a href="http://localhost/index3.html">지승혁씨의 설문지</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+			<div id="main_content">
+				<div id="top">
+					<h1>지승혁씨에 관한 설문조사입니다.<br/></h1>
+					귀하의 성별과 학년을 선택하시고 학과를 적어주십시오.<br/><br/>
+					성별 : <input type="radio" name="sex" value="m">남 <input type="radio" name="sex" value="f">여<br/>
+					학년 : <select name="grade">
+						<option value="one">1학년</option>
+						<option value="two">2학년</option>
+						<option value="three">3학년</option>
+						<option value="four">4학년</option>
+						</select><br/>
+						학과 : <input type="text" name="major">
+				</div>
+				<div id="qeus">
+					<ol>
+					<li>지승혁씨의 성격은 어떠한가요?<br/>
+						매우 좋음<input type="radio" name="s">
+						좋음<input type="radio" name="s"/>
+						보통<input type="radio" name="s"/>
+						나쁨<input type="radio" name="s"/>
+						매우 나쁨<input type="radio" name="s"/>
+					</li>
+					<li> 지승혁씨의 대인관계는 어떻다고 생각하십니까?<br/>
+						매우 넓음<input type="radio" name="link"/>
+						넓음<input type="radio" name="link"/>
+						보통<input type="radio" name="link"/>
+						좁음<input type="radio" name="link"/>
+						매우 좁음<input type="radio" name="link"/>
+					</li>
+					<li> 지승혁씨의 첫인상은 어떻다고 생각하셨습니까?<br/>
+						매우 좋다<input type="radio" name="first"/>
+						좋다<input type="radio" name="first"/>
+						보통<input type="radio" name="first"/>
+						나쁘지 않다<input type="radio" name="first"/>
+						기타 <input type="text" name="first"/>
+					</li>
+					<li> 지승혁씨의 키는 어떻다고 생각하십니까?<br/>
+						매우 크다<input type="radio" name="tall"/>
+						크다<input type="radio" name="tall"/>
+						보통<input type="radio" name="tall"/>
+						작다<input type="radio" name="tall"/>
+						매우 작다<input type="radio" name="tall"/>
+					</li>
+					<li> 지승혁씨의 외모상 컴플렉스는 어떤 것이라고 생각하십니까?<br/>
+						눈<input type="radio" name="complex"/>
+						코<input type="radio" name="complex"/>
+						입<input type="radio" name="complex"/>
+						턱<input type="radio" name="complex"/>
+						기타<input type="text" name="complex"/>
+					</li>
+					<li> 지승혁씨의 취미는 어떤 것이라고 생각하십니까?(중복선택 가능)<br/>
+						독서<input type="checkbox" name="hobby"/>
+						스포츠<input type="checkbox" name="hobby"/>
+						게임<input type="checkbox" name="hobby"/>
+						술<input type="checkbox" name="hobby"/>
+						영화<input type="checkbox" name="hobby"/>
+					</li>
+					<li> 마지막으로 지승혁씨에게 바라는 점을 적어주세요.<br/><br/>
+					<textarea cols="60" rows="5" name="hope"></textarea>
+					</li>
+					</ol>
+				</div>
+				<div id="bu">
+					<b>감사합니다</b>.
+					<input type="button" value="제출하기" style="text-align:center"><br/><br/>
+				</div>
+			</div>
+			<div id="sub_content">
+		<!-- Sub Content -->
+			<div class="section" id="spot_ranking">
+			<h1>현재의 접속자</h1>
+				<div class="list">
+				<ul>
+				<li>
+					<b>jasd1622</b> 
+					<span class="spot_type">(성 : jee)</span>
+				</li>
+				<li>
+					<b>leesally</b> 
+					<span class="spot_type">(성 : lee)</span>
+				</li>
+				<li>
+					<b>jied18</b> 
+					<span class="spot_type">(성 : yoon)</span>
+				</li>
+				<li>
+					<b>sja1029</b> 
+					<span class="spot_type">(성 : sung)</span>
+				</li>
+				<li>
+					<b>ciac102</b> 
+					<span class="spot_type">(성 : park)</span>
+				</li>
+				</ul>
+				</div>
+			</div>
+			<div class="section2" id="spot_ranking2">
+			<h1>홈페이지의 관리자들</h1>
+				<div class="list">
+				<ul>
+				<li>
+					<b>jasd1622</b> 
+					<span class="spot_type">(주인장)</span>
+				</li>
+				<li>
+					<b>leesally</b> 
+					<span class="spot_type">(부주인장)</span>
+				</li>
+				<li>
+					<b>jied18</b> 
+					<span class="spot_type">(매니저1)</span>
+				</li>
+				<li>
+					<b>sja1029</b> 
+					<span class="spot_type">(매니저2)</span>
+				</li>
+				<li>
+					<b>ciac102</b> 
+					<span class="spot_type">(매니저3)</span>
+				</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div id="footer">
+				<b>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터<br/>
+				Copyright © SHJ. All rights reserved.</b>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+		
